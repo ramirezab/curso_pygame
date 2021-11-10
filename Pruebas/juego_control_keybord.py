@@ -41,11 +41,8 @@ while True:
                 vel_y= 0
             if event.key == pygame.K_DOWN:
                 vel_y= 0
-        
 
 
-        if event.type == pygame.KEYUP:
-            pass
     if x < 0:
         x=0
     if x > 800:
